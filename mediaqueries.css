@@ -2,12 +2,19 @@
     #desktop-nav{
         display: none;
     }
+    #hamburger-nav{
+        display: flex;
+    }
 }
 
 @media screen and (max-width:600px){
     .nav-links{
-        flex-direction:column;
+        flex-direction: column;
         gap: 0.5rem;
-        text-align:center;
+        text-align: center;
     }
+}
+
+.logo{
+    font-size: 1.5 rem;
 }
